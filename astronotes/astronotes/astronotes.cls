@@ -159,26 +159,26 @@
 \usepackage{titletoc}
 \contentsmargin{0cm}
 
-\titlecontents{section}[\tocsep]
-	{\addvspace{4pt}\small\bfseries\sffamily}
-	{\contentslabel[\thecontentslabel]{\tocsep}}
-	{}
-	{\hfill\thecontentspage}
-	[]
+\titlecontents{psection}[\tocsep]
+  {\addvspace{4pt}\bfseries\sffamily}
+  {\contentslabel[\thecontentslabel]{\tocsep}}
+  {}
+  {\hfill\thecontentspage}
+  []
 
-\titlecontents{subsection}[\tocsep]
-	{\addvspace{2pt}\sffamily}
-	{\contentslabel[\thecontentslabel]{\tocsep}}
-	{}
-	{\ \titlerule*[.5pc]{.}\ \thecontentspage}
-	[]
+\titlecontents{psubsection}[\tocsep]
+  {\addvspace{2pt}\small\sffamily}
+  {\contentslabel[\thecontentslabel]{\tocsep}}
+  {}
+  {\ \titlerule*[.5pc]{.}\ \thecontentspage}
+  []
 
-\titlecontents*{subsubsection}[\tocsep]
-	{\footnotesize\sffamily}
-	{}
-	{}
-	{}
-	[\ \textbullet\ ]
+\titlecontents*{psubsubsection}[\tocsep]
+  {\footnotesize\sffamily}
+  {}
+  {}
+  {}
+  [\ \textbullet\ ]
 
 %----------------------------------------------------------------------------------------
 %	MULTIPLE AUTHOR SET
