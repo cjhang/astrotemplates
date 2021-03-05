@@ -16,7 +16,7 @@
 %----------------------------------------------------------------------------------------
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{astronotes}[05/03/2021, v1.0]
+\ProvidesClass{astronotes/astronotes}[05/03/2021, v1.0]
 
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}} % Pass through any options to the base class
 \ProcessOptions\relax % Process given options
