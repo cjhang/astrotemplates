@@ -284,18 +284,6 @@
 %----------------------------------------------------------------------------------------
 %	REFERENCES
 %----------------------------------------------------------------------------------------
-%\RequirePackage[backend=bibtex,style=authoryear,natbib=true]{biblatex} % Use the bibtex backend with the authoryear citation 
-%\renewcommand{\@biblabel}[1]{\bfseries\color{color1}\textsuperscript{(#1)}} % Styling of the reference numbers in the bibliography
-%%\setlength{\bibitemsep}{0cm}
-
-%\let\oldbibliography\thebibliography
-
-%\renewcommand{\thebibliography}[1]{%
-  %\addcontentsline{toc}{section}{\refname}%
-  %\oldbibliography{#1}%
-  %\setlength\itemsep{0pt}%
-%}
-
 \def\thebibliography#1{\section*{REFERENCES}
  \addcontentsline{toc}{section}{REFERENCES}
  % KTS: most of this stuff gets over-written by natbib below, so
