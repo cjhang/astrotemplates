@@ -1,0 +1,105 @@
+%                                                                 aa.dem
+% AA vers. 9.1, LaTeX class for Astronomy & Astrophysics
+% demonstration file
+%                                                       (c) EDP Sciences
+%-----------------------------------------------------------------------
+%
+%\documentclass[referee]{aa} % for a referee version
+%\documentclass[onecolumn]{aa} % for a paper on 1 column  
+%\documentclass[longauth]{aa} % for the long lists of affiliations
+%\documentclass[letter]{aa} % for the letters
+%\documentclass[bibyear]{aa} % if the references are not structured
+%                              according to the author-year natbib style
+
+%
+\documentclass[bibyear]{aa}  
+
+%
+\usepackage{graphicx}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{txfonts}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\usepackage[options]{hyperref}
+% To add links in your PDF file, use the package "hyperref"
+% with options according to your LaTeX or PDFLaTeX drivers.
+%
+\usepackage{natbib}
+
+
+\begin{document}
+
+
+  \title{NOEMA3D}
+  \subtitle{IV: The spatial extension of dust in star-forming main sequence galaxies}
+
+  \author{Jianhang Chen \inst{1} \and
+          Teams \inst{1} \and
+         }
+  \institute{Max-Planck-Institut f{\:u}r extraterrestrische Physik,
+             Gie{\ss}enbachstra{\ss}e 1, D-85748 Garching, Germany\\
+             \email{jhchen@mpe.mpg.de}
+            }
+
+   \date{Received September **, ****; accepted *** **, ****}
+
+% \abstract{}{}{}{}{}
+% 5 {} token are mandatory
+ 
+
+  \abstract
+  % context heading (optional)
+  % {} leave it empty if necessary  
+   {background}
+  % aims heading (mandatory)
+   {aims}
+  % methods heading (mandatory)
+   {methods}
+  % results heading (mandatory)
+   {results}
+  % conclusions heading (optional), leave it empty if necessary
+   {conclusions}
+
+   \keywords{Main-sequence galaxies --
+             Starburst galaxies --
+             }
+   \maketitle
+
+\section{Introduction}
+
+
+\section{Baker's standard one-zone model}
+
+\section{Conclusions}
+
+\begin{acknowledgements}
+      Part of this work was supported by the German
+      \emph{Deut\-sche For\-schungs\-ge\-mein\-schaft, DFG\/} project
+      number Ts~17/2--1.
+\end{acknowledgements}
+
+% WARNING
+%-------------------------------------------------------------------
+% Please note that we have included the references to the file aa.dem in
+% order to compile it, but we ask you to:
+%
+% - use BibTeX with the regular commands:
+%   \bibliographystyle{aa} % style aa.bst
+%   \bibliography{Yourfile} % your references Yourfile.bib
+%
+% - join the .bib files when you upload your source files
+%-------------------------------------------------------------------
+
+ \bibliographystyle{aa} % style aa.bst
+ \bibliography{noema3d_dust} % your references Yourfile.bib
+
+\begin{appendix} %First  appendix
+\section{Appendix 1}
+The first appendix
+\section{Title of Second appendix.....} %Second appendix
+The second method produces...
+\end{appendix}
+%
+%
+\end{document}
+
+%%%%% End of aa.dem
